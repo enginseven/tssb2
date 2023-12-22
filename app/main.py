@@ -24,7 +24,7 @@ templates = Jinja2Templates(directory="templates")
 # Model ve vektörleştirici dosyalarının yolları
 ml_model_path = '/home/ubuntu/tssb2/app/ml_models/ml_model/logistic_regression_model_pickle.pkl'
 model_path = '/home/ubuntu/tssb2/app/ml_models/nlp_model/knn_model.pkl'
-vectorizer_path = '/home/ubuntu/tssb2/app/ml_models/nlp_model/tfidf_vectorizer.pkl'
+vectorizer_path = '/home/ubuntu/tssb2/app/ml_models/ml_model/tfidf_vectorizer.pkl'
 
 # Model ve vektörleştiriciyi pickle ile yükleyin
 with open(vectorizer_path, 'rb') as file:
